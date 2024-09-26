@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="corpo_calculadora">
+        <div class="tela" id="tela_resultado">
+        
+        </div>
+        <div class="botoes">
+            <button class="operadores" onclick="deletar()">
+                C
+            </button>
+            <button class="operadores" onclick="apagar()">
+                ⌫
+            </button>
+            <button class="operadores" onclick="inserir_elemento('%')">
+                %
+            </button>
+            <button class="operadores" onclick="inserir_elemento('/')">
+                /
+            </button>
+            <button class="numericos" onclick="inserir_elemento(7)">
+                7
+            </button>
+            <button class="numericos" onclick="inserir_elemento(8)">
+                8
+            </button>
+            <button class="numericos" onclick="inserir_elemento(9)">
+                9
+            </button>
+            <button class="operadores" onclick="inserir_elemento('*')">
+                X
+            </button>
+            <button class="numericos" onclick="inserir_elemento(4)">
+                4
+            </button>
+            <button class="numericos" onclick="inserir_elemento(5)">
+                5
+            </button>
+            <button class="numericos" onclick="inserir_elemento(6)">
+                6
+            </button>
+            <button class="operadores" onclick="inserir_elemento('-')">
+                -
+            </button>
+            <button class="numericos" onclick="inserir_elemento(1)">
+                1
+            </button>
+            <button class="numericos" onclick="inserir_elemento(2)">
+                2
+            </button>
+            <button class="numericos" onclick="inserir_elemento(3)">
+                3
+            </button>
+            <button class="operadores" onclick="inserir_elemento('+')">
+                +
+            </button>
+            <button>
+            
+            </button>
+            <button class="numericos" onclick="inserir_elemento(0)">
+                0
+            </button>
+            <button class="operadores" onclick="inserir_elemento('.')">
+                .
+            </button>
+            <button class="operadores" onclick="calcular()">
+                =
+            </button>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
